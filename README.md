@@ -31,24 +31,24 @@ To get a local copy up and running, follow these steps:
    ```bash
    git clone https://github.com/EkromH/ASP.NET_Core_MVC_MasterDetails.git
    cd ASP.NET_Core_MVC_MasterDetails
-2. ** Configure Database Connection
+2. **Configure Database Connection**
    
 Open the appsettings.json file and configure the ConnectionStrings section to point to your database.
 
-3. **Apply Migrations
+3. **Apply Migrations**
    
 Run the following commands to apply the database migrations:
-
+  ```bash
 dotnet ef migrations add InitialCreate
-
 dotnet ef database update
 
 
-4. **Run the Application
+4. **Run the Application**
 
 Start the application using:
-
+  ```bash
 dotnet run
+
 Navigate to http://localhost:5000 in your web browser to view the application.
 
 Usage
