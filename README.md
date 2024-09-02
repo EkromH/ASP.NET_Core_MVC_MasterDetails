@@ -38,16 +38,17 @@ Open the appsettings.json file and configure the ConnectionStrings section to po
 3. **Apply Migrations**
    
 Run the following commands to apply the database migrations:
-  ```bash
-dotnet ef migrations add InitialCreate
-dotnet ef database update
+
+   ```bash
+   dotnet ef migrations add InitialCreate
+   dotnet ef database update
 
 
 4. **Run the Application**
-
 Start the application using:
-  ```bash
-dotnet run
+
+   ```bash
+   dotnet run
 
 Navigate to http://localhost:5000 in your web browser to view the application.
 
