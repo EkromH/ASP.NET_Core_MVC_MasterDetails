@@ -36,13 +36,12 @@ To get a local copy up and running, follow these steps:
 Open the appsettings.json file and configure the ConnectionStrings section to point to your database.
 
 3. **Apply Migrations**
-   
 Run the following commands to apply the database migrations:
 
    ```bash
    dotnet ef migrations add InitialCreate
    dotnet ef database update
-4. * #Run the Application
+4. **Run the Application**
 Start the application using:
 
    ```bash
