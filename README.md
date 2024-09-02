@@ -42,9 +42,7 @@ Run the following commands to apply the database migrations:
    ```bash
    dotnet ef migrations add InitialCreate
    dotnet ef database update
-
-
-4. **Run the Application**
+4. * #Run the Application
 Start the application using:
 
    ```bash
